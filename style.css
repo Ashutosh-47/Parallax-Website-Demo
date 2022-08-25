@@ -1,0 +1,82 @@
+body , html{
+height: 100%;             /* Make div height (inside body and html)100% */
+font-size: 15px;         /* Important (All the div inside it have font 16px)*/
+margin: 0%;
+font-weight: 500;       /* Make span text bold  */
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #f5f5f5;
+line-height: 1.8em;         /* Important*/
+}
+
+.main1 , .main2 , .main3{
+    position: relative;           /* Important   (other wise text with same class collapse)*/
+    background-size: cover;         /* Important  */
+    background-repeat: no-repeat;
+    background-position: center;         /* Important  */
+    opacity: 0.80;
+    background-attachment: fixed;   /* Important  (We will see image fixed and text moved above it, and div change img change) */
+}
+
+.main1{
+    background-image: url("/media/p-1.jpg");
+    min-height: 100%;
+}
+
+
+.main2{
+    background-image: url("/media/p-3.jpg");
+  min-height: 500px;
+}
+
+.main3{
+    background-image: url("/media/p-4.jpg");
+    min-height: 600px;
+}
+
+.ptext{
+position: absolute;
+text-align: center;
+top: 50%;
+width: 100%;
+letter-spacing: 10px;
+color: #f5f5f5;    /* for all text inside class ptext other than ptext1,2,3 have color white*/
+font-size: 30px;
+text-transform: uppercase;
+}
+
+
+.ptext1{
+    background-color: rgba(0, 0, 0, 0.804);
+    padding: 25px;
+    color: whitesmoke;
+}
+
+
+ .ptext1 .ptext2{
+    background-color: transparent;
+}
+
+ .ptext3{
+    color: black;
+}
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.seclight{
+    background-color: rgba(128, 128, 128, 0.237);
+    color: rgba(0, 0, 0, 0.553);
+    
+}
+
+.secdark{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: rgba(128, 128, 128, 0.904);
+}
+
+@media(max-width:568px){
+    .main1, .main2, .main3{
+      background-attachment:scroll;
+    }
+  }
