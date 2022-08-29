@@ -12,5 +12,11 @@ As concept is clear only when we acquire practical experience and I specifically
 Tools used : HTML and CSS
 
 
+WHAT features, technical things you had implemented?
+Tools used : HTML and CSS
+I had used Html and CSS properties , In HTML is make use of the class, div , id and different tags which helped me to build a basic layout
+of my webpage and I used  different CSS properties for styling the page to look more attractive some are like background attachment, images and text in different sections with proper size according to the webpage.
+
+
 
 
